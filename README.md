@@ -8,6 +8,8 @@ The project is related to healthcare domain and target the nature and cause of p
 The project takes an distinctive approach to find out the patterns in Covid patients, as the project takes into account datasets from different domains such as the first dataset takes into account the newly positive covid-19 cases while the second dataset is used to get patterns among various probable, confirmed and new cases and deaths and lastly we take into account different age groups and along with diverse condition groups such as Respiratory Diseases, Circulatory Disease, Diabetes, Obesity and many others have a contribution in covid-19 deaths across different counties across the country.
 
 VIM (Visualization and Imputation of Missing Values) package helps to visualize the missing data in a deep way and thus can help to apply specific mechanisms which can be helpful in analyzing the missing values and deciding whether to impute/replace or remove it, while Fig Shows the implementation of VIM package.
+
+
 ![image](https://user-images.githubusercontent.com/78203289/120350915-4f6a2880-c2f7-11eb-9c7a-cfcab6a63ac6.png)
 
 1)	Regression Techniques Implemented:
