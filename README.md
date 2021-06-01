@@ -47,12 +47,18 @@ SVC or Support Vector Classification like KNN algorithm make use of Euclidean di
 
 Findings:
 •	In the year 2020 California has the highest number of number of deaths in all age groups, on grouping the results By Year, followed by Florida and New Jersey
+
+
 ![image](https://user-images.githubusercontent.com/78203289/120352390-a290ab00-c2f8-11eb-95dc-32d522ef4db1.png)
 
 •	The state wise distribution as shown in Fig. 11. Shows Texas having highest number of Total Deaths followed by Georgia, moreover Texas even has highest number of New cases thus throwing new insight how different counties are showing increasing trends in cases and death rates.
+
+
 ![image](https://user-images.githubusercontent.com/78203289/120352458-b0463080-c2f8-11eb-9843-99a97d221add.png)
 
 •	Arizona has the highest number of confirmed deaths recorded and also has the highest number of probable new deaths also it has the confirmed number of deaths crossing 5 million. As shown in Fig. 12. Shows different Pie charts.
+
+
 ![image](https://user-images.githubusercontent.com/78203289/120352512-bdfbb600-c2f8-11eb-9c9f-8c5c4b4fdfcd.png)
 
 
