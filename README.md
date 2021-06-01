@@ -11,18 +11,26 @@ VIM (Visualization and Imputation of Missing Values) package helps to visualize 
 ![image](https://user-images.githubusercontent.com/78203289/120350915-4f6a2880-c2f7-11eb-9c7a-cfcab6a63ac6.png)
 
 1)	Regression Techniques Implemented:
+
+
 i.	XGBoost
 ii.	Random Forest
 iii.	Multiple Linear Regression
 iv.	Decision Tree
 
 2)	Classification Models Implemented:
+
+
 i.	KNN(K-Nearest Neighbor)
 ii.	SVC(Support Vector Classification)
 
 
 1.) Conditions contributing to Covid deaths by age groups across different counties in United States
+
+
 •	Models Buildup
+
+
 i)	XGBoost Model:
 In our model buildup XGBoost Cross validation is done using xgboost in-built method such as xgb.cv, which tweeks certain parameters and thus is helpful to get the evaluation log which contains the minimum and maximum tress which are built, using this data we can get the minimum number of trees which are required to predict the dependent variables in the dataset.
 
@@ -30,7 +38,11 @@ ii)	Random Forest Model:
 In our model we have used only 50 trees as increasing the number of trees is increasing computation to an indefinite time and thus is not able to give submissive results, thus the trees has been pruned down to avoid computational error within the model.
 
 2.) United States COVID cases and deaths
+
+
 •	Models Buildup
+
+
 i) Multiple Regression Model:
 Multiple regression model takes into account multiple factors affecting the dependent variable in the dataset. Also it generates dummy variables, as the data contains many categorical variables which requires special needs as they cannot be entered into the regression model as it is, thus they are recoded into a series of variables.
 
@@ -38,7 +50,11 @@ ii) Decision Tree Model:
 Decision Tree works on the model of nodes and constructing a tree with a certain length, in some cases maximum depth variable can be used to much extent. Decision Tree works on the concept of splitting the nodes and thus we have to define the number of minimum splits while defining the decision tree model.We have used rpart library as part of decision tree in R to build and execute the model, moreover the model is also pruned to get the best possible decision tree with minimum number of splits and complexity parameter and as it is a regression model we have used method as anova
 
 3.) United States Covid-19 cases and deaths over time
+
+
 •	Models Buildup:
+
+
 i) KNN (K-Nearest Neighbor):
 KNN or K nearest Neighbor is a classification as well as Regression model, which takes into the Euclidean distance. KNN application is rather simple as compared to other Machine Learning methods, moreover the number of Hyper-parameters required in KNN is only defining the number of neighbors i.e. k.After this the KNN model is applied with the optimal parameters and accuracy is checked using different libraries such as confusionMtarix which gives a cumulative results on the accuracy of the data along with Kappa value and many other.
 
