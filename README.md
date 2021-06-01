@@ -20,9 +20,8 @@ iv.	Decision Tree
 
 2)	Classification Models Implemented:
 
-
-**i.	KNN(K-Nearest Neighbor)
-ii.	SVC(Support Vector Classification)**
+i.	KNN(K-Nearest Neighbor)
+ii.	SVC(Support Vector Classification)
 
 
 1.) Conditions contributing to Covid deaths by age groups across different counties in United States
