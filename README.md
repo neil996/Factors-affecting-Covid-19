@@ -25,8 +25,9 @@ The project takes an distinctive approach to find out the patterns in Covid pati
 1.	KNN(K-Nearest Neighbor)
 2.	SVC(Support Vector Classification)
 
+#####
 
-## Conditions contributing to Covid deaths by age groups across different counties in United States
+## Dataset 1. Conditions contributing to Covid deaths by age groups across different counties in United States
 
 
 ### Models Buildup
