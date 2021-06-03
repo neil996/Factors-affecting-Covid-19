@@ -65,7 +65,7 @@ After this the KNN model is applied with the optimal parameters and accuracy is 
 2. **Support Vector Classification:**
 SVC or Support Vector Classification like KNN algorithm make use of Euclidean distance. The motive for using SVC is that it can generalize for a large set of data as SVC uses epsilon hyperplane to get the model parameters in a high dimensional space. We made use of radial basis function while defining the kernel as with the help of kernel the model is able to visualize the parameters in a high dimensional space and can give the values necessary for the model, to build support vectors.
 
-####
+#####
 
 ### Evaluation of Regression Models:
 
