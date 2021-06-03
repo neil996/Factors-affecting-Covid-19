@@ -33,7 +33,7 @@ The project takes an distinctive approach to find out the patterns in Covid pati
 ### Models Buildup
 
 
-1.	**XGBoost Model**:
+1.**XGBoost Model**:
 In our model buildup XGBoost Cross validation is done using xgboost in-built method such as xgb.cv, which tweeks certain parameters and thus is helpful to get the evaluation log which contains the minimum and maximum tress which are built, using this data we can get the minimum number of trees which are required to predict the dependent variables in the dataset.
 
 2.	**Random Forest Model**:
