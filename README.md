@@ -67,8 +67,8 @@ SVC or Support Vector Classification like KNN algorithm make use of Euclidean di
 
 # Findings:
 * Some of the findings brought up are shown below:
-* 
--	In the year 2020 California has the highest number of number of deaths in all age groups, on grouping the results By Year, followed by Florida and New Jersey
+
+-	Pie Chart showing that peopleof all ages are equally affected by Covid-19, with elderly peoples mostly affected as shown 85+ age groups accounts as the second highest, thus showing that elderly people should be more concerned for their health.
 
 ![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot.png)
 
