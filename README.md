@@ -7,7 +7,7 @@ The project looks to find distinct and diverse factors in various age groups, i.
 * The project is related to healthcare domain and target the nature and cause of pandemic which has caused ravaged around the world. As of October of 2020 various adults aged between different age groups that re between 20 to 35 and ages 35 to 49 are the ones whose transmission rates have been more than one and this phenomenon is found consistently among such adults with varying age groups. as more and more age groups in Elder people the virus is showing a strong grip hold and thus states should aware in these section of age groups to take consistent precaution as the virus effects are endangering to mass population moreover taking into account the rate of infection rate to which the virus spreads, the project is motivated by the sheer amount of death rates and increasing number of cases as each day passes. Moreover as the study suggests that the age groups from 20 to 49 are seeing an increase in transmission rates daily, thus figure shows 72.2 percent of Covid-19 carriers are peoples in these age groups.
 The project takes an distinctive approach to find out the patterns in Covid patients, as the project takes into account datasets from different domains such as the first dataset takes into account the newly positive covid-19 cases while the second dataset is used to get patterns among various probable, confirmed and new cases and deaths and lastly we take into account different age groups and along with diverse condition groups such as Respiratory Diseases, Circulatory Disease, Diabetes, Obesity and many others have a contribution in covid-19 deaths across different counties across the country.
 
-*VIM (Visualization and Imputation of Missing Values) package helps to visualize the missing data in a deep way and thus can help to apply specific mechanisms which can be helpful in analyzing the missing values and deciding whether to impute/replace or remove it, while Fig Shows the implementation of VIM package.
+* VIM (Visualization and Imputation of Missing Values) package helps to visualize the missing data in a deep way and thus can help to apply specific mechanisms which can be helpful in analyzing the missing values and deciding whether to impute/replace or remove it, while Fig Shows the implementation of VIM package.
 
 
 ![image](https://user-images.githubusercontent.com/78203289/120350915-4f6a2880-c2f7-11eb-9c7a-cfcab6a63ac6.png)
@@ -55,6 +55,7 @@ Decision Tree works on the model of nodes and constructing a tree with a certain
 
 * Models Buildup:
 
+####
 
 i) KNN (K-Nearest Neighbor):
 KNN or K nearest Neighbor is a classification as well as Regression model, which takes into the Euclidean distance. KNN application is rather simple as compared to other Machine Learning methods, moreover the number of Hyper-parameters required in KNN is only defining the number of neighbors i.e. k.After this the KNN model is applied with the optimal parameters and accuracy is checked using different libraries such as confusionMtarix which gives a cumulative results on the accuracy of the data along with Kappa value and many other.
