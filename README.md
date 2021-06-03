@@ -133,4 +133,12 @@ SVC or Support Vector Classification like KNN algorithm make use of Euclidean di
 
 ![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/newplot.png)
 
+- Map showing different counties with Total New Deaths
+
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot01.png)
+
+- Statewise Data Distribution of New Cases and Total Deaths
+
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot02.png)
+
 
