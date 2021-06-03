@@ -39,7 +39,7 @@ In our model buildup XGBoost Cross validation is done using xgboost in-built met
 2.	**Random Forest Model**:
 In our model we have used only 50 trees as increasing the number of trees is increasing computation to an indefinite time and thus is not able to give submissive results, thus the trees has been pruned down to avoid computational error within the model.
 
-## United States COVID cases and deaths
+## Dataset 2. United States COVID cases and deaths
 
 
 ### Models Buildup
@@ -50,6 +50,20 @@ Multiple regression model takes into account multiple factors affecting the depe
 
 2. **Decision Tree Model**:
 Decision Tree works on the model of nodes and constructing a tree with a certain length, in some cases maximum depth variable can be used to much extent. Decision Tree works on the concept of splitting the nodes and thus we have to define the number of minimum splits while defining the decision tree model.We have used rpart library as part of decision tree in R to build and execute the model, moreover the model is also pruned to get the best possible decision tree with minimum number of splits and complexity parameter and as it is a regression model we have used method as anova.
+
+## Dataset 3. United States Covid-19 cases and deaths over time
+
+
+### Models Buildup
+
+1. **KNN (K-Nearest Neighbor):**
+KNN or K nearest Neighbor is a classification as well as Regression model, which takes into the Euclidean distance. KNN application is rather simple as compared to other Machine Learning methods, moreover the number of Hyper-parameters required in KNN is only defining the number of neighbors i.e. k.
+
+Implementing KNN required us to first get to know the optimal k value in KN, for this we used Grid search, in R we use caret library train method, which trains the model at multiple parameters and by using bestTune parameter, we are able to retrieve the optimal k value which we can incorporate in the model.
+After this the KNN model is applied with the optimal parameters and accuracy is checked using different libraries such as confusionMtarix which gives a cumulative results on the accuracy of the data along with Kappa value and many other.
+
+2. **Support Vector Classification:**
+SVC or Support Vector Classification like KNN algorithm make use of Euclidean distance. The motive for using SVC is that it can generalize for a large set of data as SVC uses epsilon hyperplane to get the model parameters in a high dimensional space. We made use of radial basis function while defining the kernel as with the help of kernel the model is able to visualize the parameters in a high dimensional space and can give the values necessary for the model, to build support vectors.
 
 ####
 
