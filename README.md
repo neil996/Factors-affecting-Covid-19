@@ -75,6 +75,6 @@ SVC or Support Vector Classification like KNN algorithm make use of Euclidean di
 -	The state wise distribution as shown in Fig. 11. Shows Texas having highest number of Total Deaths followed by Georgia, moreover Texas even has highest number of New cases thus throwing new insight how different counties are showing increasing trends in cases and death rates.
 
 
-![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot01.png)
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/newplot.png)
 
 
