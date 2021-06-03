@@ -15,68 +15,68 @@ The project takes an distinctive approach to find out the patterns in Covid pati
 * Regression Techniques Implemented:
 
 
-i.	XGBoost
-ii.	Random Forest
-iii.	Multiple Linear Regression
-iv.	Decision Tree
+1.	XGBoost
+2.	Random Forest
+3.	Multiple Linear Regression
+4.	Decision Tree
 
 * Classification Models Implemented:
 
-i.	KNN(K-Nearest Neighbor)
-ii.	SVC(Support Vector Classification)
+1.	KNN(K-Nearest Neighbor)
+2.	SVC(Support Vector Classification)
 
 
-1.) Conditions contributing to Covid deaths by age groups across different counties in United States
+## Conditions contributing to Covid deaths by age groups across different counties in United States
 
 
-* Models Buildup
+### Models Buildup
 
 
-i)	XGBoost Model:
+1.	**XGBoost Model**:
 In our model buildup XGBoost Cross validation is done using xgboost in-built method such as xgb.cv, which tweeks certain parameters and thus is helpful to get the evaluation log which contains the minimum and maximum tress which are built, using this data we can get the minimum number of trees which are required to predict the dependent variables in the dataset.
 
-ii)	Random Forest Model:
+2.	**Random Forest Model**:
 In our model we have used only 50 trees as increasing the number of trees is increasing computation to an indefinite time and thus is not able to give submissive results, thus the trees has been pruned down to avoid computational error within the model.
 
-2.) United States COVID cases and deaths
+## United States COVID cases and deaths
 
 
-* Models Buildup
+### Models Buildup
 
 
-i) Multiple Regression Model:
+1. **Multiple Regression Model**:
 Multiple regression model takes into account multiple factors affecting the dependent variable in the dataset. Also it generates dummy variables, as the data contains many categorical variables which requires special needs as they cannot be entered into the regression model as it is, thus they are recoded into a series of variables.
 
-ii) Decision Tree Model:
+2. **Decision Tree Model**:
 Decision Tree works on the model of nodes and constructing a tree with a certain length, in some cases maximum depth variable can be used to much extent. Decision Tree works on the concept of splitting the nodes and thus we have to define the number of minimum splits while defining the decision tree model.We have used rpart library as part of decision tree in R to build and execute the model, moreover the model is also pruned to get the best possible decision tree with minimum number of splits and complexity parameter and as it is a regression model we have used method as anova
 
-3.) United States Covid-19 cases and deaths over time
+## United States Covid-19 cases and deaths over time
 
 
-* Models Buildup:
+### Models Buildup:
 
 ####
 
-i) KNN (K-Nearest Neighbor):
+1. **KNN (K-Nearest Neighbor)**:
 KNN or K nearest Neighbor is a classification as well as Regression model, which takes into the Euclidean distance. KNN application is rather simple as compared to other Machine Learning methods, moreover the number of Hyper-parameters required in KNN is only defining the number of neighbors i.e. k.After this the KNN model is applied with the optimal parameters and accuracy is checked using different libraries such as confusionMtarix which gives a cumulative results on the accuracy of the data along with Kappa value and many other.
 
-ii)  Support Vector Classification:
+2.  **Support Vector Classification:**
 SVC or Support Vector Classification like KNN algorithm make use of Euclidean distance. The motive for using SVC is that it can generalize for a large set of data as SVC uses epsilon hyperplane to get the model parameters in a high dimensional space. We made use of radial basis function while defining the kernel as with the help of kernel the model is able to visualize the parameters in a high dimensional space and can give the values necessary for the model, to build support vectors.
 
 ####
 
 # Findings:
-•	In the year 2020 California has the highest number of number of deaths in all age groups, on grouping the results By Year, followed by Florida and New Jersey
+-	In the year 2020 California has the highest number of number of deaths in all age groups, on grouping the results By Year, followed by Florida and New Jersey
 
 
 ![image](https://user-images.githubusercontent.com/78203289/120352390-a290ab00-c2f8-11eb-95dc-32d522ef4db1.png)
 
-•	The state wise distribution as shown in Fig. 11. Shows Texas having highest number of Total Deaths followed by Georgia, moreover Texas even has highest number of New cases thus throwing new insight how different counties are showing increasing trends in cases and death rates.
+-	The state wise distribution as shown in Fig. 11. Shows Texas having highest number of Total Deaths followed by Georgia, moreover Texas even has highest number of New cases thus throwing new insight how different counties are showing increasing trends in cases and death rates.
 
 
 ![image](https://user-images.githubusercontent.com/78203289/120352458-b0463080-c2f8-11eb-9843-99a97d221add.png)
 
-•	Arizona has the highest number of confirmed deaths recorded and also has the highest number of probable new deaths also it has the confirmed number of deaths crossing 5 million. As shown in Fig. 12. Shows different Pie charts.
+-	Arizona has the highest number of confirmed deaths recorded and also has the highest number of probable new deaths also it has the confirmed number of deaths crossing 5 million. As shown in Fig. 12. Shows different Pie charts.
 
 
 ![image](https://user-images.githubusercontent.com/78203289/120352512-bdfbb600-c2f8-11eb-9c9f-8c5c4b4fdfcd.png)
