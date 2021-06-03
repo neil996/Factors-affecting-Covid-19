@@ -12,7 +12,7 @@ The project takes an distinctive approach to find out the patterns in Covid pati
 
 ![image](https://user-images.githubusercontent.com/78203289/120350915-4f6a2880-c2f7-11eb-9c7a-cfcab6a63ac6.png)
 
-* 1)	Regression Techniques Implemented:
+* Regression Techniques Implemented:
 
 
 i.	XGBoost
@@ -20,7 +20,7 @@ ii.	Random Forest
 iii.	Multiple Linear Regression
 iv.	Decision Tree
 
-* 2)	Classification Models Implemented:
+* Classification Models Implemented:
 
 i.	KNN(K-Nearest Neighbor)
 ii.	SVC(Support Vector Classification)
