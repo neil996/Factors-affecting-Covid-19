@@ -152,18 +152,18 @@ SVC or Support Vector Classification like KNN algorithm make use of Euclidean di
 
 -	Pie Chart showing that peopleof all ages are equally affected by Covid-19, with elderly peoples mostly affected as shown 85+ age groups accounts as the second highest, thus showing that elderly people should be more concerned for their health.
 
-![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot.png)
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/Rplot.png)
 
 -	Respiratory disease with 27.5 % shows that, covid-19 contracted more to the patients with respiratory disorders, while the circulatory disease as the second highest. 
 
-![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/newplot.png)
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/newplot.png)
 
 - Map showing different counties with Total New Deaths
 
-![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot01.png)
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/Rplot01.png)
 
 - Statewise Data Distribution of New Cases and Total Deaths
 
-![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/Rplot02.png)
+![](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/Rplot02.png)
 
 
